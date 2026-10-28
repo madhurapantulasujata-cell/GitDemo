@@ -88,4 +88,15 @@ public class Payload {
 				+ "} \r\n"
 				+ "";
 	}
+	
+	public static String gitCHeck(String aisle)
+	{
+		return "{\r\n"
+				+ " \r\n"
+				+ "\"ID\" : \""+aisle+"\"\r\n"
+				+ " \r\n"
+				+ "} \r\n"
+				+ "";
+	}
 }
+
